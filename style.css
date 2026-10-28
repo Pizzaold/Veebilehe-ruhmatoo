@@ -1,0 +1,39 @@
+/* sidebar  stuff */
+.sidebar {
+  height: 100%;
+  width: 11rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -8.75rem;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  background-color: rgba(157, 159, 211, 0.5);
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: black;
+}
+
+.sidebar a.active {
+  background-color: rgba(131, 119, 194, 0.5);
+}
+
+.sidebar a:hover {
+  background-color: rgba(167, 169, 221, 0.5);;
+}
+
+.sidebtn {
+  position: absolute;
+  top: 0;
+  right: 0rem;
+  font-size: 36px;
+  background-color: transparent;
+  border: 0;
+}
