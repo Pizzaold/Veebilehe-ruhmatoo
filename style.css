@@ -1,3 +1,9 @@
+:root {
+  --sidebar-bg: #837ac3c9;
+  --sidebar-active: #9e9ed2;
+  --sidebar-selected: #a2f2f9;
+}
+
 /* sidebar  stuff */
 .sidebar {
   height: 100%;
@@ -9,7 +15,7 @@
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-  background-color: rgba(157, 159, 211, 0.5);
+  background-color: var(--sidebar-bg);
 }
 
 .sidebar a {
@@ -22,11 +28,11 @@
 }
 
 .sidebar a.active {
-  background-color: rgba(131, 119, 194, 0.5);
+  background-color: var(--sidebar-active);
 }
 
 .sidebar a:hover {
-  background-color: rgba(167, 169, 221, 0.5);;
+  background-color: var(--sidebar-selected);
 }
 
 .sidebtn {
@@ -36,4 +42,56 @@
   font-size: 36px;
   background-color: transparent;
   border: 0;
+}
+
+/* Main */
+.main {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 10%;
+}
+
+.main .base {
+  background-color: green;
+  display: flex;
+  min-height: 4rem;
+  margin: 1rem 1rem;
+  justify-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.main .titlediv {
+  background-color: blue;
+  justify-self: left;
+  width: 100%;
+  padding: 1rem;
+}
+
+.main .content {
+  background-color: yellow;
+  justify-self: left;
+  display: flex;
+  width:100%;
+  padding: 1rem;
+}
+
+.content img {
+  max-height: 150px;
+  max-width: auto;
+}
+
+.content p {
+  align-self: center;
+  margin-left: 1rem;
+}
+
+h1 {
+  justify-self: center;
+}
+
+.description {
+  margin-inline: 10%;
 }
