@@ -1,0 +1,37 @@
+:root {
+  --bg-dark: #060612;
+
+  --ice-dark: #4264cf;
+  --ice-light: #627fc6;
+
+  --wood: #925543;
+  --dirt: #d99c59;
+  --stone: #525e60;
+  --snow: #bcd0d8;
+
+  --strawberry: #f34660;
+}
+
+body {
+  background-color: var(--bg-dark);
+}
+
+h1 {
+  color: snow;
+}
+
+.description {
+  color: snow;
+}
+
+.main {
+  background-color: var(--ice-dark);
+}
+
+.base {
+  background-color: var(--wood);
+}
+
+.base:nth-child(even) {
+  background-color: var(--dirt);
+}

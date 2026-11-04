@@ -4,6 +4,10 @@
   --sidebar-selected: #a2f2f9;
 }
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* sidebar  stuff */
 .sidebar {
   height: 100%;
@@ -19,7 +23,7 @@
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 30px;
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -46,36 +50,33 @@
 
 /* Main */
 .main {
-  background-color: red;
   display: flex;
   flex-direction: column;
-  margin-inline: 10%;
+  margin-inline: 20%;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .main .base {
-  background-color: green;
   display: flex;
   min-height: 4rem;
-  margin: 1rem 1rem;
   justify-items: center;
   align-content: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 1rem;
 }
 
 .main .titlediv {
-  background-color: blue;
   justify-self: left;
   width: 100%;
-  padding: 1rem;
 }
 
 .main .content {
-  background-color: yellow;
   justify-self: left;
   display: flex;
-  width:100%;
-  padding: 1rem;
+  width: 100%;
 }
 
 .content img {
@@ -93,4 +94,5 @@ h1 {
 
 .description {
   margin-inline: 10%;
+  justify-self: center;
 }
