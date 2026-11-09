@@ -1,4 +1,4 @@
-<img src="Veebilehe-ruhmatoo\banner.png" alt="Celeste Banner" width="400">
+![Celeste Banner](banner.png)
 
 # Celeste Handbook
 
