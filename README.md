@@ -1,4 +1,4 @@
-![Celeste Banner](banner.png)
+<img src="banner.png" width="100%">
 
 # Celeste Handbook
 
