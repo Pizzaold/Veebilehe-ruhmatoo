@@ -1,0 +1,40 @@
+:root {
+  --bg-dark: #060612;
+
+  --ice-dark: #4264cf;
+  --ice-light: #627fc6;
+
+  --wood: #925543;
+  --dirt: #d99c59;
+  --stone: #525e60;
+  --snow: #bcd0d8;
+
+  --strawberry: #f34660;
+}
+
+html {
+  background-image: url("../1/img/celeste-city-a_4200x3343.png");
+  background-size: 100%;
+  background-color: var(--bg-dark);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: snow;
+}
+
+.description {
+  color: snow;
+}
+
+.main {
+  background-color: var(--ice-dark);
+}
+
+.base {
+  background-color: var(--wood);
+}
+
+.base:nth-child(even) {
+  background-color: var(--dirt);
+}
