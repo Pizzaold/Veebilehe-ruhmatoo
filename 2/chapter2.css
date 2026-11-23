@@ -11,7 +11,7 @@
   --stone: #525e60;
   --snow: #bcd0d8;
   --dark-blue: #1b4569;
-  --pink: #b359a7;
+  --galaxy: #b359a7;
   --strawberry: #f34660;
 }
 
@@ -39,5 +39,5 @@ h1 {
 }
 
 .base:nth-child(even) {
-  background-color: var(--pink);
+  background-color: var(--galaxy);
 }
