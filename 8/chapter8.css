@@ -1,0 +1,52 @@
+:root {
+  --bg-dark: #060612;
+
+  --ice-dark: #4264cf;
+  --ice-light: #627fc6;
+
+  --wood: #925543;
+  --dirt: #d99c59;
+  --stone: #525e60;
+  --snow: #bcd0d8;
+
+  --strawberry: #f34660;
+
+  --fire:#B92141;
+  --ice:#438ad6;
+  --volcano:#3a373a;
+}
+
+html {
+  background-image: url("../8/img/celeste-core-duo1.jpeg");
+  background-size: 100%;
+  background-color: var(--bg-dark);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: snow;
+}
+
+.description {
+  color: snow;
+  text-align: center;
+}
+
+.main {
+  background-color: var(--volcano);
+}
+
+.base {
+  background-color: var(--ice);
+}
+
+.content img {
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
+}
+
+.base:nth-child(even) {
+  background-color: var(--fire);
+}

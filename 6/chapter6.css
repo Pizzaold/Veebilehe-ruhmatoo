@@ -10,12 +10,20 @@
   --snow: #bcd0d8;
 
   --strawberry: #f34660;
+
+  --rock:#3143A9;
+  --crystal:#CA6CCB;
+  --minerals:#4DD5B7;
+  --basalt:#313C37;
+  --sun:#EAA66A;
+  --nature:#51DB98;
 }
 
 html {
-  background-image: url("../6/img/celeste-reflection.png");
+  background-image: url("../6/img/celeste-reflection-7.png");
   background-size: 100%;
   background-color: var(--bg-dark);
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -29,13 +37,19 @@ h1 {
 }
 
 .main {
-  background-color: var(--ice-dark);
+  background-color: var(--basalt);
 }
 
 .base {
-  background-color: var(--wood);
+  background-color: var(--sun);
+}
+
+.content img {
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
 }
 
 .base:nth-child(even) {
-  background-color: var(--dirt);
+  background-color: var(--nature);
 }
