@@ -1,0 +1,45 @@
+:root {
+  --bg-dark: #060612;
+  --bg-purple: #190636;
+
+  --ice-dark: #4264cf;
+  --ice-light: #627fc6;
+  
+
+  --wood: #925543;
+  --dirt: #d99c59;
+  --stone: #525e60;
+  --snow: #bcd0d8;
+  --dark-blue: #1b4569;
+  --galaxy: #b359a7;
+  --strawberry: #f34660;
+}
+
+html {
+  background-image: url("../2/img/chapter_2_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  image-rendering: pixelated;
+}
+
+h1 {
+  color: snow;
+}
+
+.description {
+  color: snow;
+}
+
+.main {
+  background-color: var(--ice-light);
+}
+
+.base {
+  background-color: var(--dark-blue);
+}
+
+.base:nth-child(even) {
+  background-color: var(--galaxy);
+}
