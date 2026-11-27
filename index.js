@@ -1,5 +1,6 @@
 let sideOpen = false
 
+// NavBar
 function btnNav() {
   if (!sideOpen) {
     document.getElementById('sidebar').style.left = "0";

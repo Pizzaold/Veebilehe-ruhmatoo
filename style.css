@@ -1,11 +1,12 @@
 :root {
-  --sidebar-bg: #837ac3c9;
-  --sidebar-active: #9e9ed2;
-  --sidebar-selected: #a2f2f9;
+  --sidebar-bg: #8980c4c9;
+  --sidebar-active: #77bedc;
+  --sidebar-selected: #81d4e9;
 }
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
 }
 
 /* sidebar  stuff */
@@ -99,4 +100,17 @@ h1 {
 
 .description p {
   text-align: center;
+}
+
+footer {
+  background-color: #351427;
+  color: #e4f4fa;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer p{
+ margin: 0;
 }
