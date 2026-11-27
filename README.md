@@ -22,6 +22,12 @@ The goal of this website is to provide a useful source for players trying to com
 - Jürmo 
 - Erlend
 
+## Division of labor
+
+- Otto: README file and chapters 2-5
+- Jürmo: Home page, chapter template, chapter 1 and JavaScript
+- Erlend: Created a document with all the information about the contents of the chapters and chapters 6-9
+
 ## Sources and Credits
 
 - Celeste – Original game and gameplay assets.
