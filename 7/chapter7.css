@@ -10,10 +10,15 @@
   --snow: #bcd0d8;
 
   --strawberry: #f34660;
+
+  --sunset:#F2E1E3;
+  --clouds:#F1ABE0;
+  --cliff:#9462A6;
+  --marshmellow:#F0B4D8;
 }
 
 html {
-  background-image: url("../7/img/celeste-summit.png");
+  background-image: url("../7/img/celeste-summit-3.png");
   background-size: 100%;
   background-color: var(--bg-dark);
   background-repeat: no-repeat;
@@ -21,6 +26,7 @@ html {
 
 h1 {
   color: snow;
+  text-align: center;
 }
 
 .description {
@@ -29,13 +35,19 @@ h1 {
 }
 
 .main {
-  background-color: var(--ice-dark);
+  background-color: var(--cliff);
 }
 
 .base {
-  background-color: var(--wood);
+  background-color: var(--sunset);
+}
+
+.content img {
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
 }
 
 .base:nth-child(even) {
-  background-color: var(--dirt);
+  background-color: var(--clouds);
 }
