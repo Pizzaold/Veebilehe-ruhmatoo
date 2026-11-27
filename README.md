@@ -1,4 +1,4 @@
-<img src="Images/banner.png" width="100%">
+<img src="img/banner.png" width="100%">
 
 # Celeste Handbook
 
