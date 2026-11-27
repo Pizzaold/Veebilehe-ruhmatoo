@@ -20,11 +20,11 @@ html {
 }
 
 h1 {
-  color: snow;
+  color: var(--snow);
 }
 
 .description {
-  color: snow;
+  color: var(--snow);
 }
 
 .main {

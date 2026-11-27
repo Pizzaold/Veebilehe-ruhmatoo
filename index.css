@@ -1,0 +1,119 @@
+:root {
+  --bg-dark: #1e2524;
+  --light: #e4f4fa;
+
+  --body-dark: #8980c4;
+  --body-light-odd: #81d4e9;
+  --body-light-even: #abd8ee;
+}
+
+html {
+  background-image: url("img/background.jpg");
+  background-size: 100%;
+  background-color: var(--bg-dark);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: var(--light);
+}
+
+.description {
+  color: var(--light);
+}
+
+img {
+  margin-right: 5px;
+}
+
+.main {
+  background-color: var(--body-dark);
+}
+
+.base {
+  background-color: var(--body-light-odd);
+}
+
+.base:nth-child(even) {
+  background-color: var(--body-light-even);
+}
+
+.chapters {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 20%;
+  align-items: center;
+}
+
+.chapters h2{
+  align-self: center;
+  color: var(--light);
+}
+
+/* https://cssgridgenerator.io/ */
+.chapters-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+  background-color: var(--body-dark);
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+/* It is 5 in the morning 💀*/
+.chapters-body div {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  background-color: var(--body-light-odd);
+}
+
+.chapters-body div:nth-child(even) {
+  background-color: var(--body-light-even);
+}
+
+.chapters-body div a{
+  flex: 1;
+  text-align: center;
+  padding-block: 4.2rem;
+  border-radius: 5%;
+}
+
+.chapters-body div a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-row-start: 3;
+}
+
+.div9 {
+    grid-row-start: 3;
+}
+
+a {
+  color: var(--bg-dark);
+  font-weight: bold;
+  text-decoration: none;
+}
