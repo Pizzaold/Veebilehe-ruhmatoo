@@ -19,10 +19,12 @@
 }
 
 html {
-  background-image: url("../3/img/celeste-resort-a_8840x1472.png");
-  background-size: 100%;
-  background-color: var(--bg-red);
+  background-image: url("../3/img/chapter_3_bg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  image-rendering: pixelated;
 }
 
 h1 {

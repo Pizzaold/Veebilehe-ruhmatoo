@@ -16,10 +16,12 @@
 }
 
 html {
-  background-image: url("../2/img/celeste-site-b_5152x3384.png");
-  background-size: 100%;
-  background-color: var(--bg-purple);
+  background-image: url("../2/img/chapter_2_bg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  image-rendering: pixelated;
 }
 
 h1 {
