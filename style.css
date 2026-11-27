@@ -81,6 +81,7 @@
 
 .content img {
   max-height: 150px;
+  border-radius: 10%;
 }
 
 .content p {
