@@ -77,6 +77,17 @@ img {
   background-color: var(--body-light-even);
 }
 
+.chapters-body div a{
+  flex: 1;
+  text-align: center;
+  padding-block: 4.2rem;
+  border-radius: 5%;
+}
+
+.chapters-body div a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .div4 {
     grid-row-start: 2;
 }
