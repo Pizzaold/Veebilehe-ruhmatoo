@@ -7,21 +7,26 @@ The goal of this website is to provide a useful source for players trying to com
 ## Key Features
 
 - Chapter guides: Info about the different chapters and their mechanics.
-- Obstacle descriptsion: Exlanations of obcstacles and their functions.
+- Obstacle descriptsion: Explanations of obcstacles and their functions.
 - Logical navigation: A structured layout for easy navigation between chapters.
-
-## How To Use
-
-1. ...
 
 ## Used Technologies 
 
 - HTML5
 - CSS3
-- Javascript
+- JavaScript
 
 ## Contributors 
 
 - Otto
 - Jürmo 
 - Erlend
+
+## Sources and Credits
+
+- Celeste – Original game and gameplay assets.
+- [BerryCamp](https://berrycamp.github.io/) – Chapter maps
+  and obstacle images.
+
+This project is an unofficial fan-made handbook and is
+not affiliated with the developers of Celeste.

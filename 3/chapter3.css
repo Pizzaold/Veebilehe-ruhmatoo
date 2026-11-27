@@ -1,0 +1,48 @@
+:root {
+  --bg-dark: #060612;
+  --bg-purple: #190636;
+  --bg-red: #35121F;
+
+  --ice-dark: #4264cf;
+  --ice-light: #627fc6;
+  --dark-gray: #2e2e2e;
+  --orange: #d6860f;
+  
+
+  --wood: #925543;
+  --dirt: #d99c59;
+  --stone: #525e60;
+  --snow: #bcd0d8;
+  --sunset-yellow: #f7c05a;
+  --deep-purple: #4b1f5e;
+  --strawberry: #f34660;
+}
+
+html {
+  background-image: url("../3/img/chapter_3_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  image-rendering: pixelated;
+}
+
+h1 {
+  color: snow;
+}
+
+.description {
+  color: snow;
+}
+
+.main {
+  background-color: var(--orange);
+}
+
+.base {
+  background-color: var(--sunset-yellow);
+}
+
+.base:nth-child(even) {
+  background-color: var(--deep-purple);
+}
